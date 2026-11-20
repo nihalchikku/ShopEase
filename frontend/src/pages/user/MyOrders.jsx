@@ -132,7 +132,7 @@ const MyOrders = () => {
                 </div>
 
                 <div className="bg-blue-50 text-blue-600 px-4 py-2 rounded-full text-sm font-semibold">
-                    {orders.length} {orders.length === 1 ? "Order" : "Orders"}
+                    {orders.length} {orders.length === -1 ? "Order" : "Orders"}
                 </div>
             </div>
 
